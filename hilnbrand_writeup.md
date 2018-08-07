@@ -94,3 +94,5 @@ I faced a few issues with this project that, given more time, I am confident I c
 
 All in all, I really enjoyed this project and I will continue to tune the code until I have a nice vehicle detector.
 
+UPDATE: After many attempts of tuning to find all cars in all locations on the current road, I found that using SVC using the rfb kernel rather than LinearSVC works better, as it is a more precise classification, rather than linear. This improved accuracy substantially, but runs significantly slower. My next steps would be to work on simplifying the algorithm and making it more efficient to run faster, fast enough to run in real time.
+
